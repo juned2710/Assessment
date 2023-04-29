@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.main
+{
+    background-color: lightblue ;
+    padding: 20px 25px;
+    width: 950px;
+}
+
+.main .contact p
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.main .add
+{
+    background-color: white;
+    margin-top:10px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.main .add .head p
+{
+    padding-bottom: 10px;
+}
+
+.main .add .details
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.main .add .details .info .fa-square-phone
+{
+    font-size: 14px;
+    color: rgb(225, 80, 80);
+}
+
+.main .add .details .info .mo span
+{
+    font-size: 14px;
+    color: rgb(225, 80, 80);
+}
+
+
+.main .add .details .info .fa-envelope
+{
+    font-size: 14px;
+    color: rgb(63, 179, 218);
+}
+
+.main .add .details .info .email span
+{
+    font-size: 14px;
+    color: rgb(63, 179, 218);
+}
+
+.main .add .details .location
+{
+    text-align: center;
+}
+
+.main .add .details .location .fa-location-dot
+{
+    font-size: 28px;
+    color: rgb(225, 80, 80);
+}
+
+.main .container
+{
+    background-color: #fff;
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* padding: 10px; */
+    padding-bottom: 30px;
+    
+}
+
+
+
+.main .container .form
+{
+    padding: 10px;
+}
+
+.main .container .form input
+{
+    padding:10px;
+    margin: 5px;
+    
+}
+
+.main .container .form textarea
+{
+    padding:10px;
+    margin: 5px;
+}
+
+.main .container .form  .btn
+{
+    padding:15px;
+    margin: 5px;
+    background-color: rgb(225, 80, 80); 
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.main .container .map
+{
+    padding: 10px;
+}
+.fa-brands 
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+
+.main .container .map .fa-square-facebook
+{
+    color: #3b5998;
+}
+
+.main .container .map .fa-twitter
+{
+   color: #55acee;
+}
+
+.main .container .map .fa-linkedin
+{
+    color: #0077b5;
+}
+
+.main .container .map .fa-square-github
+{
+
+}
